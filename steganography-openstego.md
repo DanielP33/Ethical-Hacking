@@ -26,5 +26,12 @@ then click on hide data
 
 then we have two identical images, but one has hidden information.
 
+
+
+We can see some differences between the two:
 ![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/f53e6b69-8828-4ac9-833d-e3e05d13cb98)
+
+Let's try to extract our data now, click extract data:
+Specify the input, output and the password chosen before
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/e8ac6169-bd90-47fa-9a76-5ff2e34dbcee)
 
