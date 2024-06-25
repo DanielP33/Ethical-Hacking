@@ -35,3 +35,7 @@ Let's try to extract our data now, click extract data:
 Specify the input, output and the password chosen before
 ![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/e8ac6169-bd90-47fa-9a76-5ff2e34dbcee)
 
+
+Then you have your secret file extracted.
+
+
