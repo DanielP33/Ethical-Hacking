@@ -31,3 +31,6 @@ you should see the hash and username
 sudo john SMB-[TAB] and click enter
 
 then you should have the username and password.
+
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/6d6efdd2-0e45-4a78-8f02-a22c5c57806f)
+
