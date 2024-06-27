@@ -31,3 +31,26 @@ In this example:
     172.31.47.223 is the target IP address.
     80 is the port to check.
 
+Let's try to get more information with telnet
+I typed in : telnet 172.31.47.223 80
+then GET / HTTP/1.0 and i pressed enter twice.
+
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/3d275db0-f0a7-4cd9-90fb-e94476df0e2f)
+
+
+How to search for load balancers:
+We found a couple.
+
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/fe040327-60ff-422a-b68d-d8b8b249fcd3)
+
+
+Going back to our IIS windows machine i'll try a dirb on it to find directories inside the website.
+
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/6e39ffae-7471-4cf9-a2a2-a6ef40b97093)
+
+And found one called secret.
+So this is an example of directory scanning.
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/ce4b9d03-b7bf-4780-b1d1-0da95d36137e)
+
+
+
