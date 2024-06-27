@@ -59,6 +59,8 @@ hping3 -S 172.31.47.223 -p 80 --flood
 
 ![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/81602ae0-14d7-4add-af60-541e41ca268a)
 
+And this is the capture.
 
+Let's try the same, but spoofing the IP of the attacker
 
 
