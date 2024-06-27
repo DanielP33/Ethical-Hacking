@@ -52,5 +52,13 @@ And found one called secret.
 So this is an example of directory scanning.
 ![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/ce4b9d03-b7bf-4780-b1d1-0da95d36137e)
 
+Now i'll attempt a Denial of Service on the port 80 using hping3. (the ip of the attacking machine is 172.31.43.83)
+
+I used this command:
+hping3 -S 172.31.47.223 -p 80 --flood
+
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/81602ae0-14d7-4add-af60-541e41ca268a)
+
+
 
 
