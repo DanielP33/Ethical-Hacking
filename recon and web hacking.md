@@ -61,6 +61,28 @@ hping3 -S 172.31.47.223 -p 80 --flood
 
 And this is the capture.
 
-Let's try the same, but spoofing the IP of the attacker
+Fun fact, as soon as I do the DoS command the RDP dies. As expected.
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/47c12d43-b0f9-4a8c-b063-ce314200d504)
+
+
+Previously we also found other open ports, let's try to DoS attack them.
+On our previous scans, we found port 139 Netbios, it's udp, so we adapt the command.
+
+sudo hping3 -2 -p 138 --flood 172.31.47.223
+
+Some ports where this UDP attack is possible: 
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/d38ae31d-7397-4864-b7b4-92ded3bd6751)
+
+
+
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/b7af2f7a-021a-4640-a193-f728fc9be7da)
+
+
+Now let's try to mitigate it, I'll install a tool called Anti-DDOS Guardian
+
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/03760236-a041-49bd-b845-848d78075bbc)
+
+My parrotOS is now flooding it as you can see, you can right click, block it
+![imagem](https://github.com/DanielP33/ethical-hacking/assets/145346859/84569646-c10b-4f16-804d-df0b5e97514b)
 
 
